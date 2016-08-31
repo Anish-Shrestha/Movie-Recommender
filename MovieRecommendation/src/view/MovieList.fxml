@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="559.0" prefWidth="727.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MovieListController">
+   <children>
+      <AnchorPane layoutY="-7.0" prefHeight="576.0" prefWidth="727.0">
+         <children>
+            <ListView fx:id="listview_movie" layoutX="7.0" layoutY="62.0" prefHeight="515.0" prefWidth="716.0" />
+            <Button fx:id="btnMovieList" layoutX="7.0" layoutY="21.0" mnemonicParsing="false" onAction="#ButtonLoadMovieList" text="Load Movies" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
